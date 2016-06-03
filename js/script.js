@@ -1,5 +1,4 @@
 window.onload = function(){
-//place your code here
 //play a button, find out what computer played, compare
 //find an event of what i played, event of what computer played, score
 
@@ -19,7 +18,7 @@ function playRock(){
 	if (computerPlay == 'paper'){
 		//then computer wins
 		//set status to you lost sentence
-		document.getElementById('status').innerHTML = 'You played rock, computer played paper, you lost :(';
+		document.getElementById('status').innerHTML = 'you played rock, computer played paper, you lost :(';
 		//add 1 to computer score
 		var computerScore = document.getElementById('computerScore').innerHTML;
 		computerScore = parseFloat(computerScore);
@@ -31,13 +30,13 @@ function playRock(){
 	if (computerPlay == 'rock'){
 		//then tie
 		//set status to you tie sentence
-		document.getElementById('status').innerHTML = 'You played rock, computer played rock, you tied :|';
+		document.getElementById('status').innerHTML = 'you played rock, computer played rock, you tied :|';
 	}
 
 	if (computerPlay == 'scissors'){
 		//then computer loses
 		//set status to you win sentence
-		document.getElementById('status').innerHTML = 'You played rock, computer played scissors, you won :)';
+		document.getElementById('status').innerHTML = 'you played rock, computer played scissors, you won :)';
 		//add 1 to computer score
 		var humanScore = document.getElementById('humanScore').innerHTML;
 		humanScore = parseFloat(humanScore);
@@ -53,7 +52,7 @@ function playPaper(){
 	if (computerPlay == 'scissors'){
 		//then computer wins
 		//set status to you lost sentence
-		document.getElementById('status').innerHTML = 'You played paper, computer played scissors, you lost :(';
+		document.getElementById('status').innerHTML = 'you played paper, computer played scissors, you lost :(';
 		//add 1 to computer score
 		var computerScore = document.getElementById('computerScore').innerHTML;
 		computerScore = parseFloat(computerScore);
@@ -65,13 +64,13 @@ function playPaper(){
 	if (computerPlay == 'paper'){
 		//then tie
 		//set status to you tie sentence
-		document.getElementById('status').innerHTML = 'You played paper, computer played paper, you tied :|';
+		document.getElementById('status').innerHTML = 'you played paper, computer played paper, you tied :|';
 	}
 
 	if (computerPlay == 'rock'){
 		//then computer loses
 		//set status to you win sentence
-		document.getElementById('status').innerHTML = 'You played paper, computer played rock, you won :)';
+		document.getElementById('status').innerHTML = 'you played paper, computer played rock, you won :)';
 		//add 1 to computer score
 		var humanScore = document.getElementById('humanScore').innerHTML;
 		humanScore = parseFloat(humanScore);
@@ -87,7 +86,7 @@ function playScissors(){
 	if (computerPlay == 'rock'){
 		//then computer wins
 		//set status to you lost sentence
-		document.getElementById('status').innerHTML = 'You played scissors, computer played rock, you lost :(';
+		document.getElementById('status').innerHTML = 'you played scissors, computer played rock, you lost :(';
 		//add 1 to computer score
 		var computerScore = document.getElementById('computerScore').innerHTML;
 		computerScore = parseFloat(computerScore);
@@ -99,13 +98,13 @@ function playScissors(){
 	if (computerPlay == 'scissors'){
 		//then tie
 		//set status to you tie sentence
-		document.getElementById('status').innerHTML = 'You played scissors, computer played scissors, you tied :|';
+		document.getElementById('status').innerHTML = 'you played scissors, computer played scissors, you tied :|';
 	}
 
 	if (computerPlay == 'paper'){
 		//then computer loses
 		//set status to you win sentence
-		document.getElementById('status').innerHTML = 'You played scissors, computer played paper, you won :)';
+		document.getElementById('status').innerHTML = 'you played scissors, computer played paper, you won :)';
 		//add 1 to computer score
 		var humanScore = document.getElementById('humanScore').innerHTML;
 		humanScore = parseFloat(humanScore);
